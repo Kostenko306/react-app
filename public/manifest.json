@@ -1,0 +1,54 @@
+{
+  "short_name": "Репетитор",
+  "name": "Сайт-визитка репетитора по математике",
+  "description": "Современный образовательный портал репетитора по математике с красивым дизайном и удобной навигацией",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#667eea",
+  "orientation": "portrait-primary",
+  "categories": ["education", "productivity"],
+  "lang": "ru",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Главная",
+      "short_name": "Главная",
+      "description": "Главная страница сайта",
+      "url": "/",
+      "icons": [{ "src": "favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Обратная связь",
+      "short_name": "Контакт",
+      "description": "Связаться с репетитором",
+      "url": "/contact",
+      "icons": [{ "src": "favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Услуги",
+      "short_name": "Услуги",
+      "description": "Продукты и услуги",
+      "url": "/products",
+      "icons": [{ "src": "favicon.svg", "sizes": "96x96" }]
+    }
+  ]
+} 
